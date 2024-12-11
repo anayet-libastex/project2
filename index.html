@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Unit Converter</h1>
+    <div class="converter">
+      <label for="unitType">Select Conversion:</label>
+      <select id="unitType">
+        <option value="emToPx">EM to PX</option>
+        <option value="pxToEm">PX to EM</option>
+        <option value="inchToPx">Inch to PX</option>
+        <option value="pxToInch">PX to Inch</option>
+        <option value="ptToPx">PT to PX</option>
+        <option value="pxToPt">PX to PT</option>
+      </select>
+
+      <div class="field">
+        <label for="inputValue">Enter Value:</label>
+        <input type="number" id="inputValue" placeholder="Enter value">
+      </div>
+
+      <div class="buttons">
+        <button id="convertButton">Convert</button>
+        <button id="clearButton">Clear</button>
+      </div>
+      <!-- hi -->
+      <p id="result"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 0;
+    /* background-color: #f4f4f9; */
+    background-image: url('https://images.pexels.com/photos/3560168/pexels-photo-3560168.jpeg'); /* Replace with your chosen image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  select, input {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* button:hover {
+    background-color: #0056b3;
+  } */
+  button#convertButton {
+    background-color: #28a745; /* Green */
+    color: white;
+  }
+  
+  button#convertButton:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  button#clearButton {
+    background-color: #dc3545; /* Red */
+    color: white;
+  }
+  
+  button#clearButton:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+     
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #444;
+  }
+  
